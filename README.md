@@ -1,5 +1,5 @@
 "# VSCode01" 
-"# vscode01"  ¡æ README ÆÄÀÏ »ý¼º
+"# vscode01"  ï¿½ï¿½ README ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 "# VSCode02" 
 "# VSCode02" 
 "# VSCode02" 

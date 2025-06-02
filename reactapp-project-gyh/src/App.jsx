@@ -7,8 +7,15 @@ import Login from "./components/Login";
 import Logout from "./components/Logout";
 import MemberEdit from "./components/MemberEdit";
 
+import images from "./images/image.jpg";
+
 function Home() {
-  return null;
+  return (
+    <div style={{paddingTop: "60px", testAlign: "center"}}>
+      <img src={images} alt="로고" style={{width:"1000px", height: "auto", display: "block", margin: "0 auto" }} 
+      />
+    </div>
+  );
 }
 
 function App() {

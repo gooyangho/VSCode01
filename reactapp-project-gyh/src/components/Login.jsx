@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function Login() {
   const [userid, setUserid] = useState("");        // 아이디 입력값
   const [password, setPassword] = useState("");    // 비밀번호 입력값
-  const [loggedInUser, setLoggedInUser] = useState(
+  const [loggedInUser, setLoggedInUser] = useState( //로그인된 아이디저장
     localStorage.getItem("userid") || ""
   );
 
@@ -29,11 +29,13 @@ export default function Login() {
     alert("로그인 성공");
   };
 
+     //로그아웃
   const handleLogout = () => {
     localStorage.removeItem("userid");
     setLoggedInUser("");
   };
 
+  //로그인시 보여지는형태
   if (loggedInUser) {
     return (
       <div>
@@ -44,7 +46,7 @@ export default function Login() {
     );
   }
 
-  
+  //로그인폼
   return (
       <div style={{ paddingTop: "100px" }}>
       <form onSubmit={handleLogin}>

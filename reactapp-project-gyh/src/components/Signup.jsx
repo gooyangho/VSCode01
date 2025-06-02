@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-export default function Signup() {
+export default function Signup() {  //회원가입필요한객체
   const [form, setForm] = useState({
     userid: "",
     password: "",
@@ -16,13 +16,14 @@ export default function Signup() {
     address2: "",
   });
 
-  const [idChecked, setIdChecked] = useState(false);
-  const [isCustomDomain, setIsCustomDomain] = useState(false);
+  const [idChecked, setIdChecked] = useState(false); //중복확인시 가입가능
+  const [isCustomDomain, setIsCustomDomain] = useState(false);//직접입력할경우 이메일도메인활성
 
-  const phone2Ref = useRef(null);
-  const phone3Ref = useRef(null);
+  //첫번째칸입력후 자동으로다음칸이동
+  const phone2Ref = useRef(null); 
+  const phone3Ref = useRef(null); 
 
-  const checkIdDuplicate = () => {
+  const checkIdDuplicate = () => { //아이디 중복확인
     const storedUserInfo = JSON.parse(localStorage.getItem("userInfo"));
 
     if (form.userid.trim() === "") {
@@ -39,7 +40,7 @@ export default function Signup() {
     }
   };
 
-  const handleDomainChange = (e) => {
+  const handleDomainChange = (e) => { //이메일도메인
     const domain = e.target.value;
     if (domain === "custom") {
       setForm({ ...form, emailDomain: "" });
@@ -50,19 +51,19 @@ export default function Signup() {
     }
   };
 
-  const handlePhoneChange = (e) => {
+  const handlePhoneChange = (e) => { //전화번호입력
     const { name, value } = e.target;
-    const onlyNum = value.replace(/[^0-9]/g, "");
+    const onlyNum = value.replace(/[^0-9]/g, ""); //숫자만가능
     setForm({ ...form, [name]: onlyNum });
 
-    if (name === "phone1" && onlyNum.length === 3) {
+    if (name === "phone1" && onlyNum.length === 3) { //3자리시 다음칸이동
       phone2Ref.current.focus();
     } else if (name === "phone2" && onlyNum.length === 4) {
       phone3Ref.current.focus();
     }
   };
 
-  const openPostcode = () => {
+  const openPostcode = () => { //우편번호검색
     new window.daum.Postcode({
       oncomplete: function (data) {
         setForm((prev) => ({
@@ -74,7 +75,7 @@ export default function Signup() {
     }).open();
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { //회원가입제출처리
     e.preventDefault();
 
     for (const key in form) {
@@ -111,10 +112,11 @@ export default function Signup() {
     color: "black",
   };
 
-  return (
+  return ( //회원가입폼 너비 수평정렬
     <form onSubmit={handleSubmit} style={{ maxWidth: 550, margin: "0 auto" }}>
       <h2>회원가입</h2>
 
+      {/*아이디입력 + 중복확인 버튼 */}
       <div className="form-row" style={{ marginBottom: 10 }}>
         <label style={labelStyle}>아이디: </label>
         <input
@@ -130,7 +132,7 @@ export default function Signup() {
           중복확인
         </button>
       </div>
-
+        {/*비밀번호 확인 입력 */}
       <div className="form-row" style={{ marginBottom: 10 }}>
         <label style={labelStyle}>비밀번호: </label>
         <input
@@ -150,7 +152,7 @@ export default function Signup() {
           style={{ width: "150px" }}
         />
       </div>
-
+          {/*이름 입력 */}
       <div className="form-row" style={{ marginBottom: 10 }}>
         <label style={labelStyle}>이름: </label>
         <input
@@ -160,7 +162,7 @@ export default function Signup() {
           style={{ width: "150px" }}
         />
       </div>
-
+          {/*이메일 입력(도메인및 직접입력) */}
       <div className="form-row" style={{ marginBottom: 10, display: "flex", alignItems: "center", gap: 5 }}>
         <label style={labelStyle}>이메일: </label>
         <input
@@ -182,10 +184,12 @@ export default function Signup() {
           <option value="naver.com">naver.com</option>
           <option value="gmail.com">gmail.com</option>
           <option value="daum.net">daum.net</option>
+          <option value="kosmo.atosoft.org">kosmo.atosoft.org</option>
           <option value="custom">직접입력</option>
         </select>
       </div>
 
+          {/*전화번호 입력 */}
       <div className="form-row" style={{ marginBottom: 10 }}>
         <label style={labelStyle}>휴대전화번호: </label>
         <input
@@ -225,7 +229,8 @@ export default function Signup() {
           우편번호 검색
         </button>
       </div>
-
+      
+      {/*우편번호 입력 및 우편번호 검색 버튼 */}
       <div className="form-row" style={{ marginBottom: 10 }}>
         <label style={labelStyle}>기본주소: </label>
         <input type="text" value={form.address1} readOnly style={{ width: 300 }} />
