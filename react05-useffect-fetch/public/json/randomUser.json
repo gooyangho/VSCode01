@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Madame",
+        "first": "Graziella",
+        "last": "Rey"
+      },
+      "location": {
+        "street": {
+          "number": 4339,
+          "name": "Avenue Joliot Curie"
+        },
+        "city": "Genolier",
+        "state": "Thurgau",
+        "country": "Switzerland",
+        "postcode": 2242,
+        "coordinates": {
+          "latitude": "-58.8561",
+          "longitude": "146.1382"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "graziella.rey@example.com",
+      "login": {
+        "uuid": "6d7d615c-eab4-4fe5-8c4a-aae01e27befa",
+        "username": "redmouse705",
+        "password": "diver1",
+        "salt": "PRs73tIX",
+        "md5": "1fd2f9bae4ffb2e4ed5efe67f7f85994",
+        "sha1": "bea995896a95017be51a2d34ca59b76833cdab81",
+        "sha256": "3a7f7dede77dee3f9100cea56a33308687828f68f7a29f668acd7c44cc203b58"
+      },
+      "dob": {
+        "date": "1996-04-28T11:42:58.040Z",
+        "age": 29
+      },
+      "registered": {
+        "date": "2003-05-07T14:00:32.181Z",
+        "age": 22
+      },
+      "phone": "077 799 64 36",
+      "cell": "078 710 46 02",
+      "id": {
+        "name": "AVS",
+        "value": "756.7173.1450.43"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/7.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Léon",
+        "last": "Giraud"
+      },
+      "location": {
+        "street": {
+          "number": 7476,
+          "name": "Rue Abel"
+        },
+        "city": "Dijon",
+        "state": "Val-de-Marne",
+        "country": "France",
+        "postcode": 95680,
+        "coordinates": {
+          "latitude": "-6.3168",
+          "longitude": "-57.6894"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "leon.giraud@example.com",
+      "login": {
+        "uuid": "abc20791-4c3b-4527-9175-63961b55efa5",
+        "username": "heavytiger839",
+        "password": "5551212",
+        "salt": "Ow0yFyAy",
+        "md5": "bbf445076769a9d1e3049898d89391e2",
+        "sha1": "edabb22ae32c37ee8f9ab1485e90be2df88c40b5",
+        "sha256": "da5af44182aba5bb99f0a0e38be0fea9e40bc8b31d2fe2bbd914247e6670a870"
+      },
+      "dob": {
+        "date": "1990-12-08T16:01:46.825Z",
+        "age": 34
+      },
+      "registered": {
+        "date": "2007-11-19T03:18:24.767Z",
+        "age": 17
+      },
+      "phone": "04-55-38-21-67",
+      "cell": "06-80-93-93-57",
+      "id": {
+        "name": "INSEE",
+        "value": "1901180425189 17"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/63.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/63.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/63.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Lotta",
+        "last": "Saksa"
+      },
+      "location": {
+        "street": {
+          "number": 2134,
+          "name": "Nordenskiöldinkatu"
+        },
+        "city": "Siuntio",
+        "state": "Central Ostrobothnia",
+        "country": "Finland",
+        "postcode": 68616,
+        "coordinates": {
+          "latitude": "89.0837",
+          "longitude": "-36.8576"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "lotta.saksa@example.com",
+      "login": {
+        "uuid": "866607ed-d4ac-4996-9429-bd1f6e58be17",
+        "username": "goldencat508",
+        "password": "aaaaa",
+        "salt": "XYAhZEDz",
+        "md5": "6e1b90e4b894f0c6978c496c72a37322",
+        "sha1": "583040ba143eb76f5b19ec56d83ce6acd7937c5a",
+        "sha256": "101881115dc4b5ca1a1f65e64aad4137391930105fad4a6aa4847ec38fa9d798"
+      },
+      "dob": {
+        "date": "1974-07-04T18:57:56.996Z",
+        "age": 50
+      },
+      "registered": {
+        "date": "2019-01-20T01:43:53.032Z",
+        "age": 6
+      },
+      "phone": "04-049-502",
+      "cell": "045-882-75-14",
+      "id": {
+        "name": "HETU",
+        "value": "NaNNA588undefined"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Bruce",
+        "last": "Carr"
+      },
+      "location": {
+        "street": {
+          "number": 1708,
+          "name": "Depaul Dr"
+        },
+        "city": "Port Macquarie",
+        "state": "New South Wales",
+        "country": "Australia",
+        "postcode": 3354,
+        "coordinates": {
+          "latitude": "-51.7646",
+          "longitude": "9.5322"
+        },
+        "timezone": {
+          "offset": "-10:00",
+          "description": "Hawaii"
+        }
+      },
+      "email": "bruce.carr@example.com",
+      "login": {
+        "uuid": "2ce5e8d3-137c-40ac-961d-77615278db41",
+        "username": "brownmeercat219",
+        "password": "neville",
+        "salt": "ttCjieR6",
+        "md5": "f64de56ec28bb4b0743d0a56bd059b53",
+        "sha1": "8c20d95b5b4b94a19938b9326663f51e17b7fa73",
+        "sha256": "c4d3e798c7c99257013c737c50de271260faca759f7195bd17556a4a0e0216e5"
+      },
+      "dob": {
+        "date": "1950-01-09T17:08:28.271Z",
+        "age": 75
+      },
+      "registered": {
+        "date": "2018-03-10T13:24:07.544Z",
+        "age": 7
+      },
+      "phone": "05-0795-3512",
+      "cell": "0462-968-183",
+      "id": {
+        "name": "TFN",
+        "value": "085665776"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/9.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/9.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/9.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Scarlett",
+        "last": "Lewis"
+      },
+      "location": {
+        "street": {
+          "number": 4633,
+          "name": "Bank Street"
+        },
+        "city": "Greymouth",
+        "state": "Waikato",
+        "country": "New Zealand",
+        "postcode": 19481,
+        "coordinates": {
+          "latitude": "-15.1275",
+          "longitude": "172.0628"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "scarlett.lewis@example.com",
+      "login": {
+        "uuid": "9148ed3b-8268-4df0-a221-22a3a557221b",
+        "username": "bigbutterfly578",
+        "password": "birthday4",
+        "salt": "rS0BBFuz",
+        "md5": "70b4f3859438dbcfbe8f984fdc0a55f3",
+        "sha1": "c742c442109f68f8c8d04e0dd7523cf1d54b3a58",
+        "sha256": "59589cc25c449cd20db18f8d8c3473f88a1b44a1bca7d75058779ee4dcaa2cdc"
+      },
+      "dob": {
+        "date": "1979-03-17T18:35:59.139Z",
+        "age": 46
+      },
+      "registered": {
+        "date": "2011-12-27T07:35:31.904Z",
+        "age": 13
+      },
+      "phone": "(243)-590-7941",
+      "cell": "(910)-390-5679",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/88.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/88.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "930fc28e52521229",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}
